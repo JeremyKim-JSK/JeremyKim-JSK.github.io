@@ -48,6 +48,9 @@
     <link rel="stylesheet" type="text/css" href="/css/sidebar.css">
     
     
+<link rel="stylesheet" type="text/css" href="/css/page.css">
+<link rel="stylesheet" type="text/css" href="/css/post.css">
+
     <link rel="stylesheet" type="text/css" href="/css/custom.css">
     <link rel="stylesheet" type="text/css" href="/css/atom-one-dark.css">
     <link rel="stylesheet" type="text/css" href="/css/lightgallery.min.css">
@@ -81,7 +84,7 @@
     <script defer type="text/javascript" src="/js/index.js"></script>
     
     <script defer type="text/javascript" src="/js/custom.js"></script>
-    <title>JeremyKim-Blog</title>
+    <title>Java技术栈 | JeremyKim-Blog</title>
   </head>
   <body itemscope itemtype="http://schema.org/WebPage" lang="zh_CN"  data-spy="scroll" data-target=".list-group">
     
@@ -99,7 +102,7 @@
   <a id="nav-toggle" class="nav-toggle"><i class="fas fa-bars"></i></a>
   <ul id="menu">
     
-    <li><a href="/" class="current">首页</a></li>
+    <li><a href="/">首页</a></li>
     
     <li><a href="/archives/">归档</a></li>
     
@@ -122,25 +125,22 @@
         <div class="main-container">
           <div class="content">
             
-
-<div id="index" class="index">
+<div id="post" class="post">
   
-  <article class="index-article card" itemscope itemtype="http://schema.org/Article">
+  <article class="post-article card" itemscope itemtype="http://schema.org/Article">
     <div class="post-block">
       <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/07/19/JavaArch/">
       <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-        <meta itemprop="name" content="Jeremy Kim">
-        <meta itemprop="description" content="">
-        <meta itemprop="image" content="/images/myavatar.png">
+       <meta itemprop="name" content="Jeremy Kim">
+       <meta itemprop="description" content="">
+       <meta itemprop="image" content="/images/myavatar.png">
       </span>
       <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-        <meta itemprop="name" content="JeremyKim-Blog">
+       <meta itemprop="name" content="JeremyKim-Blog">
       </span>
     </div>
     <header class="post-header">
-      <h1 class="post-title" itemprop="name headline">
-        <a class="post-title-link post-title-link-external" href="/2018/07/19/JavaArch/" itemprop="url">Java技术栈</a>
-      </h1>
+      <h1 class="post-title" itemprop="name headline">Java技术栈</h1>
       <div class="post-meta">
         
         <span class="post-date">
@@ -152,52 +152,61 @@
       </div>
     </header>
     <main class="post-main" itemprop="articleBody">
-      
       <h1 id="作为Java技术栈的工程师，这些，你都会了么？"><a href="#作为Java技术栈的工程师，这些，你都会了么？" class="headerlink" title="作为Java技术栈的工程师，这些，你都会了么？"></a>作为Java技术栈的工程师，这些，你都会了么？</h1><ol>
-<li><p>深入Spring 5与设计模式<br>(1)Spring 5实践<br>(
-      
+<li><p>深入Spring 5与设计模式<br>(1)Spring 5实践<br>(2)IOC<br>(3)AOP<br>(4)常见设计模式</p>
+</li>
+<li><p>深入WebMVC开发<br>(1)Http与Sevlet实践<br>(2)Servlet编程模型<br>(3)MVC原理与实现<br>(4)高级Filter开发实践<br>(5)Stateless架构设计<br>(6)SpringMVC开发与实践<br>(7)SpringBoot开发与实践<br>(8)API设计与实践</p>
+</li>
+<li><p>深入数据架构设计<br>(1)Spring JDBC与MySQL实践<br>(2)ORM与Hibernate实践<br>(2)Spring事务实践<br>(3)MySQL主从，分页优化<br>(4)分布式事务实践<br>(5)NoSQL实践</p>
+</li>
+<li><p>深入响应式Web开发<br>(1)Reactive实践<br>(2)Netty极其应用<br>(3)SpringWebFlux开发与Websocket<br>(4)客户端socket.io</p>
+</li>
+<li><p>深入分布式架构设计<br>(1)服务治理，服务注册与发现<br>(2)配置中心<br>(3)Hystrix，客户端路由，服务降级<br>(4)本地缓存，分布式缓存<br>(5)异步驱动，JMS，Queue<br>(6)消息服务，RabbitMQ/Kafka<br>(7)幂等性消息设计<br>(8)流控，熔断，反向代理，限速</p>
+</li>
+<li><p>应用与实战<br>(1)Sprint Cloud应用实战<br>(2)Docker应用实战<br>(3)微服务应用实战<br>(4)分布式运维实战<br>(5)性能与调优实战</p>
+</li>
+</ol>
+
     </main>
     <footer class="post-footer">
       
     </footer>
   </article>
   
-  <article class="index-article card" itemscope itemtype="http://schema.org/Article">
-    <div class="post-block">
-      <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/07/12/hello-world/">
-      <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-        <meta itemprop="name" content="Jeremy Kim">
-        <meta itemprop="description" content="">
-        <meta itemprop="image" content="/images/myavatar.png">
-      </span>
-      <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-        <meta itemprop="name" content="JeremyKim-Blog">
-      </span>
+  
+<div class="reward" id="reward">
+  <p>坚持原创技术分享，您的支持是我前进的动力！</p>
+  <button id="reward-button" class="button" disable="enable">打赏</button>
+  <div id="qr" class="qr" style="display: none;">
+    
+    <div id="wechat">
+      <img id="wechat_qr" src="/images/WeChatPay.png" alt="微信支付"/>
+      <span>微信支付</span>
     </div>
-    <header class="post-header">
-      <h1 class="post-title" itemprop="name headline">
-        <a class="post-title-link post-title-link-external" href="/2018/07/12/hello-world/" itemprop="url">Hello World</a>
-      </h1>
-      <div class="post-meta">
-        
-        <span class="post-date">
-          <i class="far fa-calendar-plus"></i><span><time title="post-date" itemprop="dateCreated datePublished" datetime="2018-07-12T18:09:22+08:00">2018-07-12 18:09:22</time></span>
-        </span>
-        
-        
-        
-      </div>
-    </header>
-    <main class="post-main" itemprop="articleBody">
-      
-      <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> f
-      
-    </main>
-    <footer class="post-footer">
-      
-    </footer>
-  </article>
+    
+    
+    <div id="alipay">
+      <img id="alipay_qr" src="/images/AliPay.png" alt="支付宝"/>
+      <span>支付宝</span>
+    </div>
+    
+    
+  </div>
+</div>
+
+
   
+  
+  <div class="post-nav">
+    <div class="post-nav-next post-nav-item">
+      
+      <a href="/2018/07/12/hello-world/" rel="next" title="Hello World"><i class="fas fa-angle-left"></i><span class="nav-title">Hello World</span></a>
+      
+    </div>
+    <div class="post-nav-prev post-nav-item">
+      
+    </div>
+  </div>
   
   
 </div>
@@ -257,6 +266,20 @@
 
 
   <div class="sidebar-sticky">
+    
+    
+
+
+
+
+<hr>
+<div class="post-toc sidebar-item" id="toc-div">
+  <div><i class="fas fa-list-ol"></i>文章目录</div>
+  <div class="post-toc-content"><ol class="list-group toc"><li class="toc-item toc-level-1"><a class="list-group-item toc-link" href="#作为Java技术栈的工程师，这些，你都会了么？"><span class="toc-text">作为Java技术栈的工程师，这些，你都会了么？</span></a></li></ol></div>
+</div>
+
+
+
     
     
     

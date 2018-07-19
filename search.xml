@@ -3,6 +3,15 @@
   
     
     <entry>
+      <title>Java技术栈</title>
+      <link href="/2018/07/19/JavaArch/"/>
+      <url>/2018/07/19/JavaArch/</url>
+      <content type="html"><![CDATA[<h1 id="作为Java技术栈的工程师，这些，你都会了么？"><a href="#作为Java技术栈的工程师，这些，你都会了么？" class="headerlink" title="作为Java技术栈的工程师，这些，你都会了么？"></a>作为Java技术栈的工程师，这些，你都会了么？</h1><ol><li><p>深入Spring 5与设计模式<br>(1)Spring 5实践<br>(2)IOC<br>(3)AOP<br>(4)常见设计模式</p></li><li><p>深入WebMVC开发<br>(1)Http与Sevlet实践<br>(2)Servlet编程模型<br>(3)MVC原理与实现<br>(4)高级Filter开发实践<br>(5)Stateless架构设计<br>(6)SpringMVC开发与实践<br>(7)SpringBoot开发与实践<br>(8)API设计与实践</p></li><li><p>深入数据架构设计<br>(1)Spring JDBC与MySQL实践<br>(2)ORM与Hibernate实践<br>(2)Spring事务实践<br>(3)MySQL主从，分页优化<br>(4)分布式事务实践<br>(5)NoSQL实践</p></li><li><p>深入响应式Web开发<br>(1)Reactive实践<br>(2)Netty极其应用<br>(3)SpringWebFlux开发与Websocket<br>(4)客户端socket.io</p></li><li><p>深入分布式架构设计<br>(1)服务治理，服务注册与发现<br>(2)配置中心<br>(3)Hystrix，客户端路由，服务降级<br>(4)本地缓存，分布式缓存<br>(5)异步驱动，JMS，Queue<br>(6)消息服务，RabbitMQ/Kafka<br>(7)幂等性消息设计<br>(8)流控，熔断，反向代理，限速</p></li><li><p>应用与实战<br>(1)Sprint Cloud应用实战<br>(2)Docker应用实战<br>(3)微服务应用实战<br>(4)分布式运维实战<br>(5)性能与调优实战</p></li></ol>]]></content>
+      
+      
+    </entry>
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2018/07/12/hello-world/"/>
       <url>/2018/07/12/hello-world/</url>
