@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-07-19T04:40:09.752Z</updated>
+  <updated>2018-07-19T05:47:16.406Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,34 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>为什么说JSON不适合做配置文件？</title>
-    <link href="http://yoursite.com/2018/07/19/JsonToConfigFile/"/>
-    <id>http://yoursite.com/2018/07/19/JsonToConfigFile/</id>
-    <published>2018-07-19T04:39:25.652Z</published>
-    <updated>2018-07-19T04:40:09.752Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;ul&gt;
-&lt;li&gt;很多项目使用 JSON 作为配置文件，最明显的例子就是 npm 和 yarn 使用的 package.json 文件。当然，还有很多其他文件，例如 CloudFormation（最初只有 JSON，但现在也支持 YAML）和
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>Java Kotlin</title>
     <link href="http://yoursite.com/2018/07/19/Java&amp;Kotlin/"/>
     <id>http://yoursite.com/2018/07/19/Java&amp;Kotlin/</id>
-    <published>2018-07-19T04:14:06.162Z</published>
-    <updated>2018-07-19T04:18:30.176Z</updated>
+    <published>2018-07-19T04:54:38.000Z</published>
+    <updated>2018-07-19T05:47:16.406Z</updated>
     
     <summary type="html">
     
@@ -59,6 +36,64 @@
     
     </summary>
     
+      <category term="技术" scheme="http://yoursite.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="java" scheme="http://yoursite.com/tags/java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>项目百态</title>
+    <link href="http://yoursite.com/2018/07/19/projectManagement/"/>
+    <id>http://yoursite.com/2018/07/19/projectManagement/</id>
+    <published>2018-07-19T04:46:50.885Z</published>
+    <updated>2018-07-19T05:48:24.055Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;软件项目管理面面观&lt;/p&gt;
+
+        
+      
+    
+    </summary>
+    
+      <category term="项目管理" scheme="http://yoursite.com/categories/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
+    
+    
+      <category term="软件项目管理" scheme="http://yoursite.com/tags/%E8%BD%AF%E4%BB%B6%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>为什么说JSON不适合做配置文件？</title>
+    <link href="http://yoursite.com/2018/07/19/JsonToConfigFile/"/>
+    <id>http://yoursite.com/2018/07/19/JsonToConfigFile/</id>
+    <published>2018-07-19T04:39:25.652Z</published>
+    <updated>2018-07-19T05:47:43.961Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;ul&gt;
+&lt;li&gt;很多项目使用 JSON 作为配置文件，最明显的例子就是 npm 和 yarn 使用的 package.json 文件。当然，还有很多其他文件，例如 CloudFormation（最初只有 JSON，但现在也支持 YAML）和
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="http://yoursite.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="json" scheme="http://yoursite.com/tags/json/"/>
     
   </entry>
   
@@ -67,7 +102,7 @@
     <link href="http://yoursite.com/2018/07/19/JavaArch/"/>
     <id>http://yoursite.com/2018/07/19/JavaArch/</id>
     <published>2018-07-19T03:50:41.464Z</published>
-    <updated>2018-07-19T03:52:30.942Z</updated>
+    <updated>2018-07-19T05:47:23.176Z</updated>
     
     <summary type="html">
     
@@ -81,6 +116,10 @@
     
     </summary>
     
+      <category term="技术" scheme="http://yoursite.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="java" scheme="http://yoursite.com/tags/java/"/>
     
   </entry>
   
