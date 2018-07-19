@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-07-19T03:52:30.942Z</updated>
+  <updated>2018-07-19T04:40:09.752Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,52 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>为什么说JSON不适合做配置文件？</title>
+    <link href="http://yoursite.com/2018/07/19/JsonToConfigFile/"/>
+    <id>http://yoursite.com/2018/07/19/JsonToConfigFile/</id>
+    <published>2018-07-19T04:39:25.652Z</published>
+    <updated>2018-07-19T04:40:09.752Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;ul&gt;
+&lt;li&gt;很多项目使用 JSON 作为配置文件，最明显的例子就是 npm 和 yarn 使用的 package.json 文件。当然，还有很多其他文件，例如 CloudFormation（最初只有 JSON，但现在也支持 YAML）和
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Java Kotlin</title>
+    <link href="http://yoursite.com/2018/07/19/Java&amp;Kotlin/"/>
+    <id>http://yoursite.com/2018/07/19/Java&amp;Kotlin/</id>
+    <published>2018-07-19T04:14:06.162Z</published>
+    <updated>2018-07-19T04:18:30.176Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Kotlin-与-Java&quot;&gt;&lt;a href=&quot;#Kotlin-与-Java&quot; class=&quot;headerlink&quot; title=&quot;Kotlin 与 Java&quot;&gt;&lt;/a&gt;Kotlin 与 Java&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;在 2017 谷歌 I/O
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Java技术栈</title>
@@ -30,28 +76,6 @@
         
         
           &lt;h1 id=&quot;作为Java技术栈的工程师，这些，你都会了么？&quot;&gt;&lt;a href=&quot;#作为Java技术栈的工程师，这些，你都会了么？&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2018/07/12/hello-world/"/>
-    <id>http://yoursite.com/2018/07/12/hello-world/</id>
-    <published>2018-07-12T10:09:22.388Z</published>
-    <updated>2018-07-12T10:09:22.389Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
         
       
     
